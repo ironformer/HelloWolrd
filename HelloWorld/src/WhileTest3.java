@@ -8,9 +8,10 @@ public class WhileTest3 {
 		int facValue = fac;
 		while(fac > 1)
 		{
-			System.out.print(fac = '*');
+			System.out.print(fac + "*");
 			facValue *= --fac;
 		}
+		System.out.println("1="+facValue);
 
 	}
 
